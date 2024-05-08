@@ -57,11 +57,35 @@ Para contribuir neste repositório, uma das formas é através da contribuição
 Para isso, você pode inserir: badges indicando suas habilidades; cards com suas estatísticas no GitHub e projetos que criou, colaborou ou que deseje que outras pessoas colaborem. Além disso, você pode inserir também links para seus desafios de projeto e artigos na plataforma da [Digital Innovation One](https://www.dio.me/). <br>
  Inspire-se consultando os exemplos na pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community), confira alguns utilitários na pasta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils) e use sua criatividade para criar o seu 😊💙.
 
+
+## Etapas para a Contribuição 📌
+
+1. Faça um **Fork** deste repositório;
+2. Clone localmente: `git clone https://github.com/SEU_USERNAME/dio-lab-open-source.git`;
+3. Use o Comando `cd dio-lab-open-source` para entrar no diretorio local; 
+4. Adicione o remote upstream para manter seu repositório local atualizado. Por exemplo: `git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git`;
+    > Utilize o comando `git pull upstream main` para baixar e mesclar as alterações no seu repositório local com base na branch `main` deste repositório original de onde você fez o fork, ou `git fetch upstream main` para baixar sem mesclar. Veja mais em: [Primeiros Passos com Git e GitHub](https://github.com/digitalinnovationone/dio-curso-git-github/blob/main/materiais-de-apoio/03-primeiros-passos-com-git-e-github.md).
+5. Crie/Referêncie uma nova **branch** e nomeie como `feat/community/SEU_USERNAME`: `git checkout -b feat/community/SEU_USERNAME`;
+    > Exemplo: `git checkout -b feat/community/elidianaandrade`
+6. Dentro da pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community), crie um arquivo em Markdown (extensão `.md`) e nomeie com o mesmo nome do seu usuário no GitHub;
+    > Exemplo: `elidianaandrade.md` <br>
+7. Desenvolva o seu perfil. Para isso, você pode ver exemplos na pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) e adicionar alguns dos utilitários presentes na pasta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils);
+    > **Observação:** Use os outros exemplos como inspiração e não cópia.
+8. Adicione suas alterações a "staging area" com o comando `git add community/SEU_USERNAME.md`;
+9. Crie um commit e adicione a mensagem indicando a adição do seu perfil `git commit -m"feat: add SEU_USERNAME profile"`;
+10. Envie as alterações para o seu repositório remoto `git push origin feat/community/SEU_USERNAME`; 
+11. Crie um **Pull Request**.
+
+
 #### Utilitários
 
-[![Badges](https://img.shields.io/badge/Badges-30A3DC?style=for-the-badge)](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/badges/badges.md)
-[![Card Stats](https://img.shields.io/badge/Card%20Stats-E94D5F?style=for-the-badge)](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/cards/github-stats.md)
-[![Badges](https://img.shields.io/badge/Card%20Streak%20States-30A3DC?style=for-the-badge)](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/cards/github-streak-stats.md)
+![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=RafaKuni&layout=compact&bg_color=000&border_color=30A3DC&title_color=E94D5F&text_color=FFF)
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=RafaKuni&theme=bear&background=000&border=30A3DC&dates=FFF)](https://git.io/streak-stats)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-kuniyoshi-ba8a23253/)
+
+
 
 > [!IMPORTANT]   
 > Confira as instruções antes de enviar a sua contribuição em [CONTRIBUTING.md](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/CONTRIBUTING.md)
@@ -92,4 +116,4 @@ GitHub Discussions é um fórum de comunicação colaborativo dentro do GitHub. 
 </a>
 
 ##
-<div align="center">Feito com 💙 por <a href="https://github.com/elidianaandrade">Eli</a>.</div>
+<div align="center">Feito com 💙 por <a href="https://github.com/RafaKuni">Rafael</a>.</div>
